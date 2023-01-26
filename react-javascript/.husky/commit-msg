@@ -1,0 +1,32 @@
+#!/bin/bash
+. "$(dirname -- "$0")/_/husky.sh"
+# regex="^.{2}(feat|fix|style|refactor|cleanup|chore|test)\s:.*"
+# message=`head -n 1 $1`
+
+# function debug {
+#   debug=false
+#   if $debug
+#   then
+#     echo >&2 $1
+#   fi
+# }
+# function info {
+#   echo >&2 $1
+# }
+
+
+# echo "$message" | grep -qE "${regex}"
+# echo $?
+# if [[ $? ]]
+#   then
+#     debug "Commit message: OK"
+#   else
+#     # Define format  message forfirst line in commit message
+#     info "올바른 커밋 메세지가 아닙니다."
+#     info "$message"
+#     exit 1
+#   fi
+  
+
+
+yarn commitlint --edit $1
