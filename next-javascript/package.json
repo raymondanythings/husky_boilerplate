@@ -1,7 +1,22 @@
 {
-  "name": "default",
+  "name": "next-javascript",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@next/font": "13.1.5",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5",
+    "next": "13.1.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
@@ -19,8 +34,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "scripts": {
-    "prepare": "husky install"
   }
 }

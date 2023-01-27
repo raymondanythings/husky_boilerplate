@@ -1,0 +1,42 @@
+[
+  {
+    "name": "기능 추가",
+    "color": "36f5f2",
+    "description": "새로운 기능을 추가합니다."
+  },
+  {
+    "name": "기능 개선",
+    "color": "169ffa",
+    "description": "기존 기능을 개선합니다."
+  },
+  {
+    "name": "오류 수정",
+    "color": "ee0701",
+    "description": "기존 또는 신규 오류를 수정합니다."
+  },
+  {
+    "name": "리팩토링",
+    "color": "fbca04",
+    "description": "코드가 내부적으로 작동하는 방식을 변경합니다."
+  },
+  {
+    "name": "환경설정",
+    "color": "d1935c",
+    "description": "프로그래밍이 아닌 환경 전체적인 부분을 수정합니다."
+  },
+  {
+    "name": "질문",
+    "color": "a5faa2",
+    "description": "레포지토리 OWNER 에게 질문합니다."
+  },
+  {
+    "name": "클린업",
+    "color": "fef2c0",
+    "description": "코드를 더 깔끔하게 만들기만 하고, 코드 작동 방식이나 출력에 대한 부분을 변경하지 않습니다."
+  },
+  {
+    "name": "제안",
+    "color": "dbe6fd",
+    "description": "레포지토리 OWNER 에게 제안합니다."
+  }
+]
