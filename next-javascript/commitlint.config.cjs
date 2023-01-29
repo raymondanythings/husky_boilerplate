@@ -3,7 +3,6 @@ module.exports = {
   // extends: ["@commitlint/config-conventional"],
   rules: {
     "type-convention": [2, "always"],
-    "body-max-line-length": [2, "always", 72],
   },
   plugins: [
     {
